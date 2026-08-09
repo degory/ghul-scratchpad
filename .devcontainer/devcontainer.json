@@ -1,0 +1,16 @@
+{
+	"name": "ghūl playground",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:10.0",
+	"containerUser": "vscode",
+	"onCreateCommand": "dotnet tool restore && dotnet tool update --local ghul.compiler && dotnet build",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"degory.ghul"
+			],
+			"settings": {
+				"files.eol": "\n"
+			}
+		}
+	}
+}
