@@ -6,7 +6,7 @@ on:
   pull_request:
   schedule:
     # weekly, so a newly published compiler or runtime that breaks the
-    # playground is caught before someone opens a Codespace on it
+    # scratchpad is caught before someone opens a Codespace on it
     - cron: '17 6 * * 1'
   workflow_dispatch:
 

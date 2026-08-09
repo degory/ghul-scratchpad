@@ -1,5 +1,5 @@
 {
-	"name": "ghūl playground",
+	"name": "ghūl scratchpad",
 	"image": "mcr.microsoft.com/devcontainers/dotnet:10.0",
 	"containerUser": "vscode",
 	"onCreateCommand": "dotnet tool restore && dotnet tool update --local ghul.compiler && dotnet build",
