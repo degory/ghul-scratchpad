@@ -51,3 +51,7 @@ To spread a program over several files, add them next to `main.ghul` and give ea
 | `ghul.json` | tells the language extension to keep the compiler tool up to date |
 | `.devcontainer/` | the Codespace and dev container definition |
 | `.vscode/` | build and run tasks, and the extension recommendation |
+
+## issues
+
+[View open issues](https://github.com/degory/ghul/issues?q=is%3Aopen+is%3Aissue+label%3Aghul-scratchpad) or [raise a new one](https://github.com/degory/ghul/issues/new?labels=ghul-scratchpad).
