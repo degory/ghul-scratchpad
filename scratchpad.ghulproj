@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ghul.runtime" Version="8.0.1" />
+    <PackageReference Include="ghul.runtime" Version="15.0.0" />
   </ItemGroup>
 </Project>
