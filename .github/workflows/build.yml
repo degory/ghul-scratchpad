@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
+  merge_group:
   schedule:
     # weekly, so a newly published compiler or runtime that breaks the
     # scratchpad is caught before someone opens a Codespace on it
